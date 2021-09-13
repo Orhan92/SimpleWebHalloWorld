@@ -1,9 +1,6 @@
 name: Build Pipeline with Docker
 
-on:
-  push:
-    branches:
-      - 'master'
+on: [push]
 
 jobs:
   docker:
