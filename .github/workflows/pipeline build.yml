@@ -30,6 +30,6 @@ jobs:
           push: true
           context: ${{ env.working-directory }} / /app
           tags: |
-           ghcr.io/Orhan92/simplewebhalloworld:latest
-           ghcr.io/Orhan92/simplewebhalloworld$
+           ghcr.io/orhan92/simplewebhalloworld:latest
+           ghcr.io/orhan92/simplewebhalloworld$
           
